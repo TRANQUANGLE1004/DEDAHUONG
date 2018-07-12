@@ -1,0 +1,21 @@
+#pragma once
+#ifndef _CONFIGURATION_H_
+#define _CONFIGURATION_H_
+
+#define MAX_VALUE 255
+
+#define PIN_PULSE_OMNI 3
+#define PIN_DIR_OMNI 4
+#define PIN_PULSE_MECANUM_LEFT 6
+#define PIN_DIR_MECANUM_LEFT 8
+#define PIN_PULSE_MECANUM_RIGHT 5
+#define PIN_DIR_MECANUM_RIGHT 7
+
+#define DIRECTION_OMNI 1 //quy dinh chieu duong +
+#define DIRECTION_MECANUM_LEFT 0 
+#define DIRECTION_MECANUM_RIGHT 0
+
+#define LOCK 2
+#define FREE_STATE 0
+
+#endif // !_CONFIGURATION_H_
